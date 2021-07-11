@@ -1,0 +1,69 @@
+<html>
+    <title> </title>
+    <head>
+        <style>
+            .FormHeading{
+                background-color: rgb(202, 52, 152) ;
+                padding: 8px;
+                text-align: center;
+                font-weight: initial;
+                font-size: x-small;
+            }
+
+            .Loginform{
+                padding: 50px 50px 50px 50px ;
+                border: 5px  dashed;
+                border-radius: 25spx;
+                width: 300px;
+                margin-top: 50px;
+                margin-left: initial;
+                margin-right: initial;
+                margin-bottom: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                float: right;
+                clear: right;
+                color: maroon;
+            }
+
+            .sub{
+                background-color: rgb(188, 214, 214) ;
+                padding: 8px 10px 8px 10px;
+                font-weight: bolder;
+                color: rgb(104, 6, 6);
+                margin-left: 25px;
+                border-radius: 7px;
+            }
+
+            .Reset{
+                background-color: rgb(188, 214, 214) ;
+                padding: 8px 10px 8px 10px;
+                font-weight: bolder;
+                color: rgb(104, 6, 6);
+                margin-right: 25px;
+                border-radius: 7px;
+
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="loginForm">
+            <h2 class="heading"> LogIn Here </h2>
+            <form>
+                <fieldset>
+                    <lable> EmailId:</lable> <input type="text" name="EmailId" style="text-align: center;">
+                    <lable> Password:</lable><input type="text" name="Password" style="text-align: center;">
+                    <input type="checkbox" id="Keep Me LoggedIn" name="Keep Me LoggedIn" value="Keep Me LoggedIn"/>
+                    <label for="Keep Me LoggedIn"> Keep Me Loggedin </label><br>
+                    <div>
+                        <input type="submit" value="Login" class="sub" style="text-align: left;">
+                        <input type="reset" value="Reset" class="Reset" style="text-align: right;">
+                    </div>
+            
+                        
+                </fieldset>
+            </form>
+        </div>
+
+    </body>
+</html>
